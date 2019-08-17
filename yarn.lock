@@ -8167,10 +8167,14 @@ redux-immutable-state-invariant@^2.1.0:
     invariant "^2.1.0"
     json-stringify-safe "^5.0.1"
 
-redux-starter-kit@^0.6.3:
+redux-persist@^5.10.0:
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-5.10.0.tgz#5d8d802c5571e55924efc1c3a9b23575283be62b"
+  integrity sha512-sSJAzNq7zka3qVHKce1hbvqf0Vf5DuTVm7dr4GtsqQVOexnrvbV47RWFiPxQ8fscnyiuWyD2O92DOxPl0tGCRg==
+
+"redux-starter-kit@https://github.com/ramyareye/redux-starter-kit":
   version "0.6.3"
-  resolved "https://registry.yarnpkg.com/redux-starter-kit/-/redux-starter-kit-0.6.3.tgz#bafde49b8ff35dff0f4f43700d7ed9973754c96e"
-  integrity sha512-A+7UjgmFrWdKksHl8xTGxDw6Bv8QJ+wrTubBscFNs5gIezGHOdwjqTTSVX4xMgQkgPtVfSPj/Bo+5o6f71/eTA==
+  resolved "https://github.com/ramyareye/redux-starter-kit#60ebb56397086739cc12e89b41ef25c451e44b07"
   dependencies:
     immer "^2.1.5"
     redux "^4.0.0"
